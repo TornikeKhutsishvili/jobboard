@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="auth-wrap">
+
+  <div class="auth-intro">
+    <p class="eyebrow">მოგესალმებით</p>
+    <h1>დაუბრუნდი<br /><em>შესაძლებლობებს.</em></h1>
+    <p>მართე ვაკანსიები, განაახლე პროფილი და იყავი პროფესიული ქსელის ნაწილი.</p>
+  </div>
+
+  <form class="auth-form" method="post">
+    {{ form.hidden_tag() }}
+
+    <h2>შესვლა</h2>
+
+    {% for field in [form.email, form.password] %}
+    <div class="field">
+      {{ field.label }}
+      {{ field(class='form-control') }}
+
+      {% for error in field.errors %}
+        <small class="error">{{ error }}</small>
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+    {{ form.submit(class='btn btn-accent w-100') }}
+    <p>ანგარიში არ გაქვთ? <a href="{{ url_for('register') }}">რეგისტრაცია</a></p>
+  </form>
+
+</section>
+{% endblock %}

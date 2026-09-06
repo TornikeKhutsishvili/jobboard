@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<article class="job-detail">
+
+  <div class="detail-top">
+    <div>
+      <span class="category-tag">{{ job.category }}</span>
+      <h1>{{ job.title }}</h1>
+      <p class="company">
+        <i class="bi bi-buildings"></i> {{ job.company }}
+        <span><i class="bi bi-geo-alt"></i> {{ job.location }}</span>
+      </p>
+    </div>
+    <div class="salary">
+      <small>ანაზღაურება</small><strong>{{ job.salary }}</strong>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="detail-body">
+    <section>
+      <h2>პოზიციის შესახებ</h2>
+      <p>{{ job.description }}</p>
+    </section>
+    <aside>
+      <h3>ინფორმაცია</h3>
+      <dl>
+        <dt>გამოქვეყნდა</dt>
+        <dd>{{ job.created_at.strftime('%d.%m.%Y') }}</dd>
+        <dt>ავტორი</dt>
+        <dd>
+          <a href="{{ url_for('user_profile', user_id=job.author.id) }}">
+            {{ job.author.username }}
+          </a>
+        </dd>
+      </dl>
+    </aside>
+  </div>
+
+  {% if current_user.is_authenticated and job.author_id == current_user.id %}
+  <div class="owner-actions">
+    <a class="btn btn-outline-dark" href="{{ url_for('edit_job', job_id=job.id) }}">
+      <i class="bi bi-pencil"></i> რედაქტირება
+    </a>
+
+    <form method="post" action="{{ url_for('delete_job', job_id=job.id) }}">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+      <button class="btn btn-outline-danger" type="submit">
+        <i class="bi bi-trash"></i> წაშლა
+      </button>
+    </form>
+  </div>
+  {% endif %}
+
+</article>
+{% endblock %}

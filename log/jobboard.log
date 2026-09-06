@@ -1,0 +1,2217 @@
+2026-09-05 20:28:05,625 | INFO | Database tables created.
+2026-09-05 20:28:06,589 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 20:28:06,589 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 20:28:06,617 | INFO |  * Restarting with stat
+2026-09-05 20:28:13,754 | INFO | Database tables created.
+2026-09-05 20:28:13,800 | WARNING |  * Debugger is active!
+2026-09-05 20:28:13,829 | INFO |  * Debugger PIN: 491-664-609
+2026-09-05 20:28:26,981 | WARNING | API request error: 
+2026-09-05 20:28:27,053 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:27] "GET / HTTP/1.1" 200 -
+2026-09-05 20:28:28,017 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:28:28,028 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:28:41,977 | WARNING | API request error: 
+2026-09-05 20:28:42,005 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:42] "GET /?q=&category=Other HTTP/1.1" 200 -
+2026-09-05 20:28:42,297 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:28:42,301 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:28:55,984 | WARNING | API request error: 
+2026-09-05 20:28:56,042 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:56] "GET /?q=&category=IT HTTP/1.1" 200 -
+2026-09-05 20:28:56,761 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:28:56,845 | INFO | 127.0.0.1 - - [05/Sep/2026 20:28:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:29:00,697 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:00] "GET /login HTTP/1.1" 200 -
+2026-09-05 20:29:00,861 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:29:00,889 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:29:03,359 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:03] "GET /register HTTP/1.1" 200 -
+2026-09-05 20:29:03,571 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:29:03,588 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:29:21,777 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:21] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-09-05 20:29:21,801 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:21] "[32mGET /login HTTP/1.1[0m" 302 -
+2026-09-05 20:29:26,976 | WARNING | API request error: 
+2026-09-05 20:29:26,985 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:26] "GET / HTTP/1.1" 200 -
+2026-09-05 20:29:27,205 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:29:27,208 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:29:32,234 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:32] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:29:32,443 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:29:32,482 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:29:33,349 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:33] "GET /jobs/new HTTP/1.1" 200 -
+2026-09-05 20:29:33,630 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:29:33,633 | INFO | 127.0.0.1 - - [05/Sep/2026 20:29:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:30:21,538 | INFO | Job created: id=1 author=toko@gmail.com
+2026-09-05 20:30:21,539 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:21] "[32mPOST /jobs/new HTTP/1.1[0m" 302 -
+2026-09-05 20:30:21,581 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:21] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 20:30:22,146 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:30:22,213 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:30:40,973 | WARNING | API request error: 
+2026-09-05 20:30:40,979 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:40] "GET / HTTP/1.1" 200 -
+2026-09-05 20:30:41,117 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:30:41,119 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:30:43,942 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:43] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 20:30:44,052 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:30:44,055 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:30:50,660 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 20:30:50,799 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:30:50,822 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-05 20:30:50,866 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=awjFH77mGNTpO6QeiitL HTTP/1.1" 200 -
+2026-09-05 20:30:53,651 | INFO | 127.0.0.1 - - [05/Sep/2026 20:30:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-05 20:32:05,972 | WARNING | API request error: 
+2026-09-05 20:32:06,009 | INFO | 127.0.0.1 - - [05/Sep/2026 20:32:06] "GET / HTTP/1.1" 200 -
+2026-09-05 20:32:07,470 | INFO | 127.0.0.1 - - [05/Sep/2026 20:32:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:32:08,081 | INFO | 127.0.0.1 - - [05/Sep/2026 20:32:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:33:15,792 | INFO |  * Detected change in 'c:\\Users\\DESKTOP.GE\\Desktop\\JobBoard\\app.py', reloading
+2026-09-05 20:33:30,763 | INFO | Database tables created.
+2026-09-05 20:33:30,813 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 20:33:30,814 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 20:33:42,664 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 108, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 27, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 20:33:42,689 | INFO | 127.0.0.1 - - [05/Sep/2026 20:33:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 20:33:43,692 | INFO | 127.0.0.1 - - [05/Sep/2026 20:33:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:33:43,704 | INFO | 127.0.0.1 - - [05/Sep/2026 20:33:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:33:53,979 | WARNING | API request error: 
+2026-09-05 20:33:53,986 | INFO | 127.0.0.1 - - [05/Sep/2026 20:33:53] "GET / HTTP/1.1" 200 -
+2026-09-05 20:33:54,161 | INFO | 127.0.0.1 - - [05/Sep/2026 20:33:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:33:54,164 | INFO | 127.0.0.1 - - [05/Sep/2026 20:33:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:34:01,974 | WARNING | API request error: 
+2026-09-05 20:34:01,980 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:01] "GET / HTTP/1.1" 200 -
+2026-09-05 20:34:02,132 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:34:02,137 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:34:05,050 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:05] "GET /about HTTP/1.1" 200 -
+2026-09-05 20:34:05,183 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:34:05,186 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:34:12,977 | WARNING | API request error: 
+2026-09-05 20:34:12,983 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:12] "GET / HTTP/1.1" 200 -
+2026-09-05 20:34:13,076 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:34:13,084 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:34:22,056 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:22] "GET /users/1 HTTP/1.1" 200 -
+2026-09-05 20:34:22,180 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:34:22,184 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:34:31,989 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:31] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 20:34:32,107 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:34:32,108 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:34:40,392 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-05 20:34:45,982 | WARNING | API request error: 
+2026-09-05 20:34:45,989 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:45] "GET / HTTP/1.1" 200 -
+2026-09-05 20:34:46,230 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:34:46,261 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:34:54,500 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:54] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 20:34:54,616 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:34:54,618 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:34:57,414 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:57] "GET /users/1 HTTP/1.1" 200 -
+2026-09-05 20:34:57,526 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:34:57,543 | INFO | 127.0.0.1 - - [05/Sep/2026 20:34:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:35:03,981 | WARNING | API request error: 
+2026-09-05 20:35:03,995 | INFO | 127.0.0.1 - - [05/Sep/2026 20:35:03] "GET / HTTP/1.1" 200 -
+2026-09-05 20:35:04,082 | INFO | 127.0.0.1 - - [05/Sep/2026 20:35:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:35:04,086 | INFO | 127.0.0.1 - - [05/Sep/2026 20:35:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:35:05,280 | INFO | 127.0.0.1 - - [05/Sep/2026 20:35:05] "GET /register HTTP/1.1" 200 -
+2026-09-05 20:35:05,342 | INFO | 127.0.0.1 - - [05/Sep/2026 20:35:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:35:05,344 | INFO | 127.0.0.1 - - [05/Sep/2026 20:35:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:36:08,692 | INFO | 127.0.0.1 - - [05/Sep/2026 20:36:08] "POST /register HTTP/1.1" 200 -
+2026-09-05 20:36:09,283 | INFO | 127.0.0.1 - - [05/Sep/2026 20:36:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:36:09,284 | INFO | 127.0.0.1 - - [05/Sep/2026 20:36:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:36:38,983 | INFO | 127.0.0.1 - - [05/Sep/2026 20:36:38] "POST /register HTTP/1.1" 200 -
+2026-09-05 20:36:39,072 | INFO | 127.0.0.1 - - [05/Sep/2026 20:36:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:36:39,072 | INFO | 127.0.0.1 - - [05/Sep/2026 20:36:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:37:32,879 | INFO | 127.0.0.1 - - [05/Sep/2026 20:37:32] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-09-05 20:37:32,919 | INFO | 127.0.0.1 - - [05/Sep/2026 20:37:32] "GET /login HTTP/1.1" 200 -
+2026-09-05 20:37:33,294 | INFO | 127.0.0.1 - - [05/Sep/2026 20:37:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:37:33,303 | INFO | 127.0.0.1 - - [05/Sep/2026 20:37:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:37:49,592 | INFO | Successful login: toko@posta.ge
+2026-09-05 20:37:49,593 | INFO | 127.0.0.1 - - [05/Sep/2026 20:37:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-05 20:37:54,975 | WARNING | API request error: 
+2026-09-05 20:37:54,990 | INFO | 127.0.0.1 - - [05/Sep/2026 20:37:54] "GET / HTTP/1.1" 200 -
+2026-09-05 20:37:55,251 | INFO | 127.0.0.1 - - [05/Sep/2026 20:37:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:37:55,252 | INFO | 127.0.0.1 - - [05/Sep/2026 20:37:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:38:03,041 | INFO | 127.0.0.1 - - [05/Sep/2026 20:38:03] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 20:38:03,157 | INFO | 127.0.0.1 - - [05/Sep/2026 20:38:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:38:03,158 | INFO | 127.0.0.1 - - [05/Sep/2026 20:38:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:38:05,635 | INFO | 127.0.0.1 - - [05/Sep/2026 20:38:05] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:38:05,737 | INFO | 127.0.0.1 - - [05/Sep/2026 20:38:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:38:05,738 | INFO | 127.0.0.1 - - [05/Sep/2026 20:38:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:40:39,638 | INFO | 127.0.0.1 - - [05/Sep/2026 20:40:39] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:40:40,490 | INFO | 127.0.0.1 - - [05/Sep/2026 20:40:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:40:40,685 | INFO | 127.0.0.1 - - [05/Sep/2026 20:40:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:41:18,164 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:18] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:41:19,005 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:41:19,020 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:41:20,464 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:20] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:41:20,693 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:41:20,715 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:41:23,671 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:23] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:41:23,843 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:41:23,844 | INFO | 127.0.0.1 - - [05/Sep/2026 20:41:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:42:16,642 | INFO | 127.0.0.1 - - [05/Sep/2026 20:42:16] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:42:17,745 | INFO | 127.0.0.1 - - [05/Sep/2026 20:42:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:42:17,807 | INFO | 127.0.0.1 - - [05/Sep/2026 20:42:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:42:24,987 | WARNING | API request error: 
+2026-09-05 20:42:25,031 | INFO | 127.0.0.1 - - [05/Sep/2026 20:42:25] "GET / HTTP/1.1" 200 -
+2026-09-05 20:42:25,339 | INFO | 127.0.0.1 - - [05/Sep/2026 20:42:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:42:25,356 | INFO | 127.0.0.1 - - [05/Sep/2026 20:42:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:43:01,974 | WARNING | API request error: 
+2026-09-05 20:43:02,137 | INFO | 127.0.0.1 - - [05/Sep/2026 20:43:02] "GET / HTTP/1.1" 200 -
+2026-09-05 20:43:04,241 | INFO | 127.0.0.1 - - [05/Sep/2026 20:43:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:43:04,369 | INFO | 127.0.0.1 - - [05/Sep/2026 20:43:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:43:45,973 | WARNING | API request error: 
+2026-09-05 20:43:45,991 | INFO | 127.0.0.1 - - [05/Sep/2026 20:43:45] "GET / HTTP/1.1" 200 -
+2026-09-05 20:43:46,561 | INFO | 127.0.0.1 - - [05/Sep/2026 20:43:46] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 20:43:46,620 | INFO | 127.0.0.1 - - [05/Sep/2026 20:43:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:44:31,845 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:31] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:44:32,710 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:44:32,714 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:44:34,846 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:34] "GET /about HTTP/1.1" 200 -
+2026-09-05 20:44:35,138 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:44:35,147 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:44:42,981 | WARNING | API request error: 
+2026-09-05 20:44:42,997 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:42] "GET / HTTP/1.1" 200 -
+2026-09-05 20:44:43,156 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:44:43,159 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:44:53,080 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 108, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 27, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 20:44:53,184 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:53] "[35m[1mGET /?q=&category=Other HTTP/1.1[0m" 500 -
+2026-09-05 20:44:53,459 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:44:53,462 | INFO | 127.0.0.1 - - [05/Sep/2026 20:44:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:47:13,213 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 108, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 27, in top-level template code
+    <!-- bootstrap script -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 20:47:13,257 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 20:47:14,484 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:14] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 20:47:14,744 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:47:21,980 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 108, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 27, in top-level template code
+    <!-- bootstrap script -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 20:47:21,989 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 20:47:22,719 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:47:22,744 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:47:23,264 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:23] "GET /about HTTP/1.1" 200 -
+2026-09-05 20:47:23,635 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:47:23,645 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:47:30,982 | WARNING | API request error: 
+2026-09-05 20:47:30,991 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:30] "GET / HTTP/1.1" 200 -
+2026-09-05 20:47:31,168 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:47:31,185 | INFO | 127.0.0.1 - - [05/Sep/2026 20:47:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:48:44,047 | INFO | 127.0.0.1 - - [05/Sep/2026 20:48:44] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 20:48:45,057 | INFO | 127.0.0.1 - - [05/Sep/2026 20:48:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:48:45,163 | INFO | 127.0.0.1 - - [05/Sep/2026 20:48:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:49:55,975 | INFO | 127.0.0.1 - - [05/Sep/2026 20:49:55] "GET /profile HTTP/1.1" 200 -
+2026-09-05 20:49:56,337 | INFO | 127.0.0.1 - - [05/Sep/2026 20:49:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:49:56,343 | INFO | 127.0.0.1 - - [05/Sep/2026 20:49:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 20:50:02,978 | WARNING | API request error: 
+2026-09-05 20:50:03,003 | INFO | 127.0.0.1 - - [05/Sep/2026 20:50:03] "GET / HTTP/1.1" 200 -
+2026-09-05 20:50:03,584 | INFO | 127.0.0.1 - - [05/Sep/2026 20:50:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 20:50:03,585 | INFO | 127.0.0.1 - - [05/Sep/2026 20:50:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:00:18,990 | WARNING | API request error: 
+2026-09-05 21:03:38,912 | INFO | Database tables created.
+2026-09-05 21:03:39,156 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 21:03:39,156 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 21:03:50,714 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 109, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 21, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 21:03:50,737 | INFO | 127.0.0.1 - - [05/Sep/2026 21:03:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:03:52,134 | INFO | 127.0.0.1 - - [05/Sep/2026 21:03:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:03:52,136 | INFO | 127.0.0.1 - - [05/Sep/2026 21:03:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:04:05,016 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 109, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 21, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 21:04:05,020 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:04:05,551 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:04:05,645 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:04:06,587 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:06] "GET /about HTTP/1.1" 200 -
+2026-09-05 21:04:07,008 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:04:07,019 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:04:16,291 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 109, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 21, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 21:04:16,297 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:04:16,580 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:04:16,586 | INFO | 127.0.0.1 - - [05/Sep/2026 21:04:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:05:06,667 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 109, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 21, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 21:05:06,679 | INFO | 127.0.0.1 - - [05/Sep/2026 21:05:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:05:07,780 | INFO | 127.0.0.1 - - [05/Sep/2026 21:05:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:05:07,809 | INFO | 127.0.0.1 - - [05/Sep/2026 21:05:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:09:02,873 | INFO | 127.0.0.1 - - [05/Sep/2026 21:09:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:09:03,496 | INFO | 127.0.0.1 - - [05/Sep/2026 21:09:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-09-05 21:09:31,131 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 109, in index
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 21, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 93, in block 'content'
+    <time>{{ job.get('job_posted_at_datetime_utc', '')[:10] }}</time>
+    ^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-09-05 21:09:31,321 | INFO | 127.0.0.1 - - [05/Sep/2026 21:09:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:09:44,080 | INFO | 127.0.0.1 - - [05/Sep/2026 21:09:44] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 21:09:44,218 | INFO | 127.0.0.1 - - [05/Sep/2026 21:09:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-09-05 21:09:48,166 | INFO | 127.0.0.1 - - [05/Sep/2026 21:09:48] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 21:12:06,957 | INFO | Database tables created.
+2026-09-05 21:12:07,000 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 21:12:07,000 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 21:12:09,250 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 110, in index
+    selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 71, in external_api_jobs
+    async with client.get(
+               ~~~~~~~~~~^
+        'https://api.openwebninja.com/jsearch/search-v2',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        parameters=params,
+        ^^^^^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\aiohttp\client.py", line 1468, in get
+    self._request(
+    ~~~~~~~~~~~~~^
+        hdrs.METH_GET, url, allow_redirects=allow_redirects, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ClientSession._request() got an unexpected keyword argument 'parameters'
+2026-09-05 21:12:09,317 | INFO | 127.0.0.1 - - [05/Sep/2026 21:12:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:12:12,357 | INFO | 127.0.0.1 - - [05/Sep/2026 21:12:12] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 21:12:12,390 | INFO | 127.0.0.1 - - [05/Sep/2026 21:12:12] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 21:12:14,296 | INFO | 127.0.0.1 - - [05/Sep/2026 21:12:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-09-05 21:14:31,055 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 110, in index
+    selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 71, in external_api_jobs
+    async with client.get(
+               ~~~~~~~~~~^
+        'https://api.openwebninja.com/jsearch/search-v2',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\aiohttp\client.py", line 1468, in get
+    self._request(
+    ~~~~~~~~~~~~~^
+        hdrs.METH_GET, url, allow_redirects=allow_redirects, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ClientSession._request() got an unexpected keyword argument 'parameters'
+2026-09-05 21:14:31,294 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:14:32,589 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:14:32,906 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:14:39,320 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 110, in index
+    selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 71, in external_api_jobs
+    async with client.get(
+               ~~~~~~~~~~^
+        'https://api.openwebninja.com/jsearch/search-v2',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\aiohttp\client.py", line 1468, in get
+    self._request(
+    ~~~~~~~~~~~~~^
+        hdrs.METH_GET, url, allow_redirects=allow_redirects, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ClientSession._request() got an unexpected keyword argument 'parameters'
+2026-09-05 21:14:39,330 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:14:40,072 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:14:40,090 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:14:41,705 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 110, in index
+    selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 71, in external_api_jobs
+    async with client.get(
+               ~~~~~~~~~~^
+        'https://api.openwebninja.com/jsearch/search-v2',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\aiohttp\client.py", line 1468, in get
+    self._request(
+    ~~~~~~~~~~~~~^
+        hdrs.METH_GET, url, allow_redirects=allow_redirects, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ClientSession._request() got an unexpected keyword argument 'parameters'
+2026-09-05 21:14:41,718 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:14:42,771 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:14:42,777 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:14:44,814 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-05 21:14:44,970 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 110, in index
+    selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 71, in external_api_jobs
+    async with client.get(
+               ~~~~~~~~~~^
+        'https://api.openwebninja.com/jsearch/search-v2',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\aiohttp\client.py", line 1468, in get
+    self._request(
+    ~~~~~~~~~~~~~^
+        hdrs.METH_GET, url, allow_redirects=allow_redirects, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ClientSession._request() got an unexpected keyword argument 'parameters'
+2026-09-05 21:14:44,985 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:14:45,232 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:14:45,246 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:14:47,104 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 110, in index
+    selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 71, in external_api_jobs
+    async with client.get(
+               ~~~~~~~~~~^
+        'https://api.openwebninja.com/jsearch/search-v2',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\aiohttp\client.py", line 1468, in get
+    self._request(
+    ~~~~~~~~~~~~~^
+        hdrs.METH_GET, url, allow_redirects=allow_redirects, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ClientSession._request() got an unexpected keyword argument 'parameters'
+2026-09-05 21:14:47,113 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:14:47,436 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:14:47,478 | INFO | 127.0.0.1 - - [05/Sep/2026 21:14:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:16:06,904 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 110, in index
+    selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 71, in external_api_jobs
+    async with client.get(
+               ~~~~~~~~~~^
+        'https://api.openwebninja.com/jsearch/search-v2',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\aiohttp\client.py", line 1468, in get
+    self._request(
+    ~~~~~~~~~~~~~^
+        hdrs.METH_GET, url, allow_redirects=allow_redirects, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ClientSession._request() got an unexpected keyword argument 'parameters'
+2026-09-05 21:16:06,920 | INFO | 127.0.0.1 - - [05/Sep/2026 21:16:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:16:07,717 | INFO | 127.0.0.1 - - [05/Sep/2026 21:16:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:16:07,752 | INFO | 127.0.0.1 - - [05/Sep/2026 21:16:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:16:14,077 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 110, in index
+    selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 71, in external_api_jobs
+    async with client.get(
+               ~~~~~~~~~~^
+        'https://api.openwebninja.com/jsearch/search-v2',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\aiohttp\client.py", line 1468, in get
+    self._request(
+    ~~~~~~~~~~~~~^
+        hdrs.METH_GET, url, allow_redirects=allow_redirects, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ClientSession._request() got an unexpected keyword argument 'parameters'
+2026-09-05 21:16:14,083 | INFO | 127.0.0.1 - - [05/Sep/2026 21:16:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:16:14,646 | INFO | 127.0.0.1 - - [05/Sep/2026 21:16:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:16:14,837 | INFO | 127.0.0.1 - - [05/Sep/2026 21:16:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:16:53,473 | INFO | Database tables created.
+2026-09-05 21:16:53,604 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 21:16:53,604 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 21:17:12,989 | WARNING | API request error: 
+2026-09-05 21:17:13,082 | INFO | 127.0.0.1 - - [05/Sep/2026 21:17:13] "GET / HTTP/1.1" 200 -
+2026-09-05 21:17:14,577 | INFO | 127.0.0.1 - - [05/Sep/2026 21:17:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:17:14,744 | INFO | 127.0.0.1 - - [05/Sep/2026 21:17:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:17:28,845 | INFO | 127.0.0.1 - - [05/Sep/2026 21:17:28] "GET /?q=&category=Other HTTP/1.1" 200 -
+2026-09-05 21:17:29,067 | INFO | 127.0.0.1 - - [05/Sep/2026 21:17:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:17:29,068 | INFO | 127.0.0.1 - - [05/Sep/2026 21:17:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:22:14,191 | INFO | 127.0.0.1 - - [05/Sep/2026 21:22:14] "GET /?q=&category=Other HTTP/1.1" 200 -
+2026-09-05 21:22:15,358 | INFO | 127.0.0.1 - - [05/Sep/2026 21:22:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:22:15,381 | INFO | 127.0.0.1 - - [05/Sep/2026 21:22:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:22:58,089 | INFO | 127.0.0.1 - - [05/Sep/2026 21:22:58] "GET /?q=&category=Other HTTP/1.1" 200 -
+2026-09-05 21:22:58,859 | INFO | 127.0.0.1 - - [05/Sep/2026 21:22:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:22:58,866 | INFO | 127.0.0.1 - - [05/Sep/2026 21:22:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:24:42,439 | INFO | 127.0.0.1 - - [05/Sep/2026 21:24:42] "GET /?q=&category=Other HTTP/1.1" 200 -
+2026-09-05 21:24:43,827 | INFO | 127.0.0.1 - - [05/Sep/2026 21:24:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:24:44,052 | INFO | 127.0.0.1 - - [05/Sep/2026 21:24:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:24:50,552 | INFO | 127.0.0.1 - - [05/Sep/2026 21:24:50] "GET / HTTP/1.1" 200 -
+2026-09-05 21:24:50,860 | INFO | 127.0.0.1 - - [05/Sep/2026 21:24:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:24:50,861 | INFO | 127.0.0.1 - - [05/Sep/2026 21:24:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:25:15,837 | INFO | 127.0.0.1 - - [05/Sep/2026 21:25:15] "GET /?q=&category=Other HTTP/1.1" 200 -
+2026-09-05 21:25:19,014 | INFO | 127.0.0.1 - - [05/Sep/2026 21:25:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:25:19,516 | INFO | 127.0.0.1 - - [05/Sep/2026 21:25:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:25:31,178 | INFO | 127.0.0.1 - - [05/Sep/2026 21:25:31] "GET /register HTTP/1.1" 200 -
+2026-09-05 21:25:35,106 | INFO | 127.0.0.1 - - [05/Sep/2026 21:25:35] "GET /login HTTP/1.1" 200 -
+2026-09-05 21:25:38,410 | INFO | 127.0.0.1 - - [05/Sep/2026 21:25:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:25:38,418 | INFO | 127.0.0.1 - - [05/Sep/2026 21:25:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:25:50,769 | INFO | Successful login: toko@gmail.com
+2026-09-05 21:25:50,833 | INFO | 127.0.0.1 - - [05/Sep/2026 21:25:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-05 21:26:00,196 | INFO | 127.0.0.1 - - [05/Sep/2026 21:26:00] "GET / HTTP/1.1" 200 -
+2026-09-05 21:26:00,756 | INFO | 127.0.0.1 - - [05/Sep/2026 21:26:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:26:00,823 | INFO | 127.0.0.1 - - [05/Sep/2026 21:26:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:27:52,479 | INFO | Successful login: intruder@example.com
+2026-09-05 21:27:55,146 | INFO | Successful login: author@example.com
+2026-09-05 21:27:55,177 | INFO | Job created: id=1 author=author@example.com
+2026-09-05 21:28:28,376 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 106, in index
+    jobs = query.order_by(Job.created_at.desc()).all()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\query.py", line 2711, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\query.py", line 2864, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2373, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2271, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: job
+[SQL: SELECT job.id AS job_id, job.title AS job_title, job.summary AS job_summary, job.description AS job_description, job.company AS job_company, job.salary AS job_salary, job.location AS job_location, job.category AS job_category, job.created_at AS job_created_at, job.updated_at AS job_updated_at, job.author_id AS job_author_id 
+FROM job ORDER BY job.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-09-05 21:28:28,961 | INFO | 127.0.0.1 - - [05/Sep/2026 21:28:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:28:30,596 | ERROR | Error on request:
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 106, in index
+    jobs = query.order_by(Job.created_at.desc()).all()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\query.py", line 2711, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\query.py", line 2864, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2373, in execute
+    return self._execute_internal(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2271, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: job
+[SQL: SELECT job.id AS job_id, job.title AS job_title, job.summary AS job_summary, job.description AS job_description, job.company AS job_company, job.salary AS job_salary, job.location AS job_location, job.category AS job_category, job.created_at AS job_created_at, job.updated_at AS job_updated_at, job.author_id AS job_author_id 
+FROM job ORDER BY job.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\serving.py", line 332, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 860, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 301, in internal_error
+    return render_template(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 128, in _render
+    app.update_template_context(context)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 530, in update_template_context
+    context.update(self.ensure_sync(func)())
+                   ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask_login\utils.py", line 405, in _user_context_processor
+    return dict(current_user=_get_user())
+                             ~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask_login\utils.py", line 370, in _get_user
+    current_app.login_manager._load_user()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask_login\login_manager.py", line 364, in _load_user
+    user = self._user_callback(user_id)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 42, in load_user
+    return db.session.get(User, int(user_id))
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\scoping.py", line 1043, in get
+    return self._proxied.get(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 3702, in get
+    return self._get_impl(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 3881, in _get_impl
+    return db_load_fn(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\loading.py", line 695, in load_on_pk_identity
+    session.execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2373, in execute
+    return self._execute_internal(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2271, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: user
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.email AS user_email, user.password AS user_password, user.image_file AS user_image_file, user.joined_at AS user_joined_at 
+FROM user 
+WHERE user.id = ?]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-09-05 21:30:49,254 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 106, in index
+    jobs = query.order_by(Job.created_at.desc()).all()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\query.py", line 2711, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\query.py", line 2864, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2373, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2271, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: job
+[SQL: SELECT job.id AS job_id, job.title AS job_title, job.summary AS job_summary, job.description AS job_description, job.company AS job_company, job.salary AS job_salary, job.location AS job_location, job.category AS job_category, job.created_at AS job_created_at, job.updated_at AS job_updated_at, job.author_id AS job_author_id 
+FROM job ORDER BY job.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-09-05 21:30:49,363 | INFO | 127.0.0.1 - - [05/Sep/2026 21:30:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-05 21:30:49,415 | ERROR | Error on request:
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 106, in index
+    jobs = query.order_by(Job.created_at.desc()).all()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\query.py", line 2711, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\query.py", line 2864, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2373, in execute
+    return self._execute_internal(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2271, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: job
+[SQL: SELECT job.id AS job_id, job.title AS job_title, job.summary AS job_summary, job.description AS job_description, job.company AS job_company, job.salary AS job_salary, job.location AS job_location, job.category AS job_category, job.created_at AS job_created_at, job.updated_at AS job_updated_at, job.author_id AS job_author_id 
+FROM job ORDER BY job.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\serving.py", line 371, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\serving.py", line 332, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 860, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 301, in internal_error
+    return render_template(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 128, in _render
+    app.update_template_context(context)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 530, in update_template_context
+    context.update(self.ensure_sync(func)())
+                   ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask_login\utils.py", line 405, in _user_context_processor
+    return dict(current_user=_get_user())
+                             ~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask_login\utils.py", line 370, in _get_user
+    current_app.login_manager._load_user()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask_login\login_manager.py", line 364, in _load_user
+    user = self._user_callback(user_id)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 42, in load_user
+    return db.session.get(User, int(user_id))
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\scoping.py", line 1043, in get
+    return self._proxied.get(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 3702, in get
+    return self._get_impl(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 3881, in _get_impl
+    return db_load_fn(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\loading.py", line 695, in load_on_pk_identity
+    session.execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2373, in execute
+    return self._execute_internal(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\session.py", line 2271, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+    
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: user
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.email AS user_email, user.password AS user_password, user.image_file AS user_image_file, user.joined_at AS user_joined_at 
+FROM user 
+WHERE user.id = ?]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-09-05 21:31:21,855 | INFO | Database tables created.
+2026-09-05 21:31:21,925 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 21:31:21,926 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 21:31:34,462 | INFO | 127.0.0.1 - - [05/Sep/2026 21:31:34] "GET / HTTP/1.1" 200 -
+2026-09-05 21:31:35,196 | INFO | 127.0.0.1 - - [05/Sep/2026 21:31:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:31:35,218 | INFO | 127.0.0.1 - - [05/Sep/2026 21:31:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:32:56,168 | INFO | 127.0.0.1 - - [05/Sep/2026 21:32:56] "GET / HTTP/1.1" 200 -
+2026-09-05 21:32:56,891 | INFO | 127.0.0.1 - - [05/Sep/2026 21:32:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:32:56,941 | INFO | 127.0.0.1 - - [05/Sep/2026 21:32:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:37:45,609 | INFO | 127.0.0.1 - - [05/Sep/2026 21:37:45] "GET / HTTP/1.1" 200 -
+2026-09-05 21:37:46,437 | INFO | 127.0.0.1 - - [05/Sep/2026 21:37:46] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 21:37:46,548 | INFO | 127.0.0.1 - - [05/Sep/2026 21:37:46] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 21:39:48,999 | INFO | 127.0.0.1 - - [05/Sep/2026 21:39:48] "GET /?q=&category=Frontend+developer HTTP/1.1" 200 -
+2026-09-05 21:39:59,998 | INFO | 127.0.0.1 - - [05/Sep/2026 21:39:59] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 21:40:00,022 | INFO | 127.0.0.1 - - [05/Sep/2026 21:40:00] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 21:40:36,605 | INFO | 127.0.0.1 - - [05/Sep/2026 21:40:36] "GET /?q=&category=Frontend+developer HTTP/1.1" 200 -
+2026-09-05 21:40:37,172 | INFO | 127.0.0.1 - - [05/Sep/2026 21:40:37] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 21:40:37,186 | INFO | 127.0.0.1 - - [05/Sep/2026 21:40:37] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 21:40:38,708 | INFO | 127.0.0.1 - - [05/Sep/2026 21:40:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-05 21:41:26,565 | INFO | Database tables created.
+2026-09-05 21:41:26,636 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 21:41:26,637 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 21:41:33,016 | INFO | 127.0.0.1 - - [05/Sep/2026 21:41:33] "GET / HTTP/1.1" 200 -
+2026-09-05 21:41:33,710 | INFO | 127.0.0.1 - - [05/Sep/2026 21:41:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:41:33,868 | INFO | 127.0.0.1 - - [05/Sep/2026 21:41:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:42:38,162 | INFO | 127.0.0.1 - - [05/Sep/2026 21:42:38] "GET / HTTP/1.1" 200 -
+2026-09-05 21:42:38,924 | INFO | 127.0.0.1 - - [05/Sep/2026 21:42:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:42:38,926 | INFO | 127.0.0.1 - - [05/Sep/2026 21:42:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:42:53,844 | INFO | Database tables created.
+2026-09-05 21:42:53,943 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 21:42:53,943 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 21:43:03,310 | INFO | 127.0.0.1 - - [05/Sep/2026 21:43:03] "GET / HTTP/1.1" 200 -
+2026-09-05 21:43:03,643 | INFO | 127.0.0.1 - - [05/Sep/2026 21:43:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:43:03,645 | INFO | 127.0.0.1 - - [05/Sep/2026 21:43:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:44:34,999 | WARNING | API request error: 
+2026-09-05 21:44:35,076 | INFO | 127.0.0.1 - - [05/Sep/2026 21:44:35] "GET /?q=g&category= HTTP/1.1" 200 -
+2026-09-05 21:44:35,905 | INFO | 127.0.0.1 - - [05/Sep/2026 21:44:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:44:35,910 | INFO | 127.0.0.1 - - [05/Sep/2026 21:44:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:44:55,462 | INFO | 127.0.0.1 - - [05/Sep/2026 21:44:55] "GET /?q=full&category= HTTP/1.1" 200 -
+2026-09-05 21:44:55,695 | INFO | 127.0.0.1 - - [05/Sep/2026 21:44:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:44:55,696 | INFO | 127.0.0.1 - - [05/Sep/2026 21:44:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:46:08,503 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:08] "GET /?q=full&category= HTTP/1.1" 200 -
+2026-09-05 21:46:09,208 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:46:09,226 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:46:16,994 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:16] "GET /?q=&category= HTTP/1.1" 200 -
+2026-09-05 21:46:17,201 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:46:17,205 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:46:27,451 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:27] "GET /login HTTP/1.1" 200 -
+2026-09-05 21:46:27,527 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:46:27,528 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:46:39,633 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:39] "GET / HTTP/1.1" 200 -
+2026-09-05 21:46:39,696 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:46:39,705 | INFO | 127.0.0.1 - - [05/Sep/2026 21:46:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:49:12,212 | INFO | 127.0.0.1 - - [05/Sep/2026 21:49:12] "GET /login HTTP/1.1" 200 -
+2026-09-05 21:49:13,077 | INFO | 127.0.0.1 - - [05/Sep/2026 21:49:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:49:13,106 | INFO | 127.0.0.1 - - [05/Sep/2026 21:49:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:49:20,352 | WARNING | Failed login: toko@gmail.com
+2026-09-05 21:49:20,363 | INFO | 127.0.0.1 - - [05/Sep/2026 21:49:20] "POST /login HTTP/1.1" 200 -
+2026-09-05 21:49:20,543 | INFO | 127.0.0.1 - - [05/Sep/2026 21:49:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:49:20,550 | INFO | 127.0.0.1 - - [05/Sep/2026 21:49:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:54:57,060 | INFO | Database tables created.
+2026-09-05 21:54:57,377 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-05 21:54:57,378 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-05 21:57:11,691 | INFO | 127.0.0.1 - - [05/Sep/2026 21:57:11] "GET / HTTP/1.1" 200 -
+2026-09-05 21:57:12,996 | INFO | 127.0.0.1 - - [05/Sep/2026 21:57:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:57:13,038 | INFO | 127.0.0.1 - - [05/Sep/2026 21:57:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:57:31,245 | INFO | 127.0.0.1 - - [05/Sep/2026 21:57:31] "GET /register HTTP/1.1" 200 -
+2026-09-05 21:57:31,362 | INFO | 127.0.0.1 - - [05/Sep/2026 21:57:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:57:31,367 | INFO | 127.0.0.1 - - [05/Sep/2026 21:57:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:59:15,858 | INFO | 127.0.0.1 - - [05/Sep/2026 21:59:15] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-09-05 21:59:15,896 | INFO | 127.0.0.1 - - [05/Sep/2026 21:59:15] "[32mGET /login HTTP/1.1[0m" 302 -
+2026-09-05 21:59:22,311 | INFO | 127.0.0.1 - - [05/Sep/2026 21:59:22] "GET / HTTP/1.1" 200 -
+2026-09-05 21:59:22,758 | INFO | 127.0.0.1 - - [05/Sep/2026 21:59:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 21:59:22,799 | INFO | 127.0.0.1 - - [05/Sep/2026 21:59:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:59:38,852 | INFO | 127.0.0.1 - - [05/Sep/2026 21:59:38] "GET /jobs/new HTTP/1.1" 200 -
+2026-09-05 21:59:39,148 | INFO | 127.0.0.1 - - [05/Sep/2026 21:59:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 21:59:39,200 | INFO | 127.0.0.1 - - [05/Sep/2026 21:59:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:00:45,055 | INFO | Job created: id=1 author=toko@gmail.com
+2026-09-05 22:00:45,058 | INFO | 127.0.0.1 - - [05/Sep/2026 22:00:45] "[32mPOST /jobs/new HTTP/1.1[0m" 302 -
+2026-09-05 22:00:45,121 | INFO | 127.0.0.1 - - [05/Sep/2026 22:00:45] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 22:00:45,635 | INFO | 127.0.0.1 - - [05/Sep/2026 22:00:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:00:45,729 | INFO | 127.0.0.1 - - [05/Sep/2026 22:00:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:01:38,507 | INFO | 127.0.0.1 - - [05/Sep/2026 22:01:38] "GET /jobs/1/edit HTTP/1.1" 200 -
+2026-09-05 22:01:39,003 | INFO | 127.0.0.1 - - [05/Sep/2026 22:01:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:01:39,027 | INFO | 127.0.0.1 - - [05/Sep/2026 22:01:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:04:22,978 | INFO | Job edited: id=1 author=toko@gmail.com
+2026-09-05 22:04:22,979 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:22] "[32mPOST /jobs/1/edit HTTP/1.1[0m" 302 -
+2026-09-05 22:04:23,004 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:23] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 22:04:23,596 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:04:23,691 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:04:31,176 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:31] "GET /users/1 HTTP/1.1" 200 -
+2026-09-05 22:04:31,297 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:04:31,297 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:04:44,866 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:44] "GET / HTTP/1.1" 200 -
+2026-09-05 22:04:44,978 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:04:44,987 | INFO | 127.0.0.1 - - [05/Sep/2026 22:04:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:05:43,150 | INFO | 127.0.0.1 - - [05/Sep/2026 22:05:43] "GET /about HTTP/1.1" 200 -
+2026-09-05 22:05:43,485 | INFO | 127.0.0.1 - - [05/Sep/2026 22:05:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:05:43,660 | INFO | 127.0.0.1 - - [05/Sep/2026 22:05:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:05:56,921 | INFO | 127.0.0.1 - - [05/Sep/2026 22:05:56] "GET / HTTP/1.1" 200 -
+2026-09-05 22:05:56,986 | INFO | 127.0.0.1 - - [05/Sep/2026 22:05:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:05:57,026 | INFO | 127.0.0.1 - - [05/Sep/2026 22:05:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:05:58,083 | INFO | 127.0.0.1 - - [05/Sep/2026 22:05:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-05 22:06:05,468 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:05] "GET / HTTP/1.1" 200 -
+2026-09-05 22:06:05,620 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:06:05,633 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:06:06,960 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:06] "GET /register HTTP/1.1" 200 -
+2026-09-05 22:06:07,246 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:06:07,252 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:06:20,411 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:20] "POST /register HTTP/1.1" 200 -
+2026-09-05 22:06:20,537 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:06:20,542 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:06:52,288 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:52] "POST /register HTTP/1.1" 200 -
+2026-09-05 22:06:52,753 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:06:52,874 | INFO | 127.0.0.1 - - [05/Sep/2026 22:06:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:07:33,570 | INFO | 127.0.0.1 - - [05/Sep/2026 22:07:33] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-09-05 22:07:33,595 | INFO | 127.0.0.1 - - [05/Sep/2026 22:07:33] "GET /login HTTP/1.1" 200 -
+2026-09-05 22:07:33,947 | INFO | 127.0.0.1 - - [05/Sep/2026 22:07:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:07:34,001 | INFO | 127.0.0.1 - - [05/Sep/2026 22:07:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:07:44,716 | INFO | Successful login: tornike@gmail.com
+2026-09-05 22:07:44,718 | INFO | 127.0.0.1 - - [05/Sep/2026 22:07:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-05 22:07:54,159 | INFO | 127.0.0.1 - - [05/Sep/2026 22:07:54] "GET / HTTP/1.1" 200 -
+2026-09-05 22:07:54,261 | INFO | 127.0.0.1 - - [05/Sep/2026 22:07:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:07:54,266 | INFO | 127.0.0.1 - - [05/Sep/2026 22:07:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:08:00,909 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:00] "GET /users/1 HTTP/1.1" 200 -
+2026-09-05 22:08:01,021 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:08:01,040 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:08:05,821 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:05] "GET /about HTTP/1.1" 200 -
+2026-09-05 22:08:05,952 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:08:05,956 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:08:06,667 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:06] "GET /profile HTTP/1.1" 200 -
+2026-09-05 22:08:06,845 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:08:06,941 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:08:19,336 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-05 22:08:24,627 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:24] "GET / HTTP/1.1" 200 -
+2026-09-05 22:08:24,731 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:08:24,733 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:08:27,124 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:27] "GET /register HTTP/1.1" 200 -
+2026-09-05 22:08:27,245 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:08:27,261 | INFO | 127.0.0.1 - - [05/Sep/2026 22:08:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:09:18,083 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:18] "POST /register HTTP/1.1" 200 -
+2026-09-05 22:09:18,724 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:09:18,755 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:09:26,647 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:26] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-09-05 22:09:26,665 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:26] "GET /login HTTP/1.1" 200 -
+2026-09-05 22:09:26,767 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:09:26,782 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:09:39,744 | INFO | Successful login: toko@posta.ge
+2026-09-05 22:09:39,745 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-05 22:09:50,549 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:50] "GET / HTTP/1.1" 200 -
+2026-09-05 22:09:50,598 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:09:50,612 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:09:58,821 | INFO | 127.0.0.1 - - [05/Sep/2026 22:09:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-05 22:10:06,697 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:06] "GET / HTTP/1.1" 200 -
+2026-09-05 22:10:06,859 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:10:06,862 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:10:08,744 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:08] "GET /login HTTP/1.1" 200 -
+2026-09-05 22:10:08,812 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:10:08,812 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:10:18,024 | WARNING | Failed login: toko@post.ge
+2026-09-05 22:10:18,026 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:18] "POST /login HTTP/1.1" 200 -
+2026-09-05 22:10:18,100 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:10:18,101 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:10:27,330 | WARNING | Failed login: toko@posta.ge
+2026-09-05 22:10:27,332 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:27] "POST /login HTTP/1.1" 200 -
+2026-09-05 22:10:27,452 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:10:27,453 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:10:32,283 | INFO | Successful login: toko@posta.ge
+2026-09-05 22:10:32,284 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-05 22:10:38,860 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:38] "GET / HTTP/1.1" 200 -
+2026-09-05 22:10:38,911 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:10:38,915 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:10:44,526 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-05 22:10:50,846 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:50] "GET / HTTP/1.1" 200 -
+2026-09-05 22:10:50,984 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:10:50,989 | INFO | 127.0.0.1 - - [05/Sep/2026 22:10:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:01,493 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:01] "GET /register HTTP/1.1" 200 -
+2026-09-05 22:11:01,674 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:11:01,709 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:03,493 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:03] "GET /login HTTP/1.1" 200 -
+2026-09-05 22:11:03,584 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:11:03,598 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:04,936 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:04] "GET /register HTTP/1.1" 200 -
+2026-09-05 22:11:05,185 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:11:05,193 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:06,088 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:06] "GET /login HTTP/1.1" 200 -
+2026-09-05 22:11:06,240 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:11:06,242 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:08,404 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:08] "GET /login HTTP/1.1" 200 -
+2026-09-05 22:11:08,486 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:11:08,487 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:23,733 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:23] "POST /login HTTP/1.1" 200 -
+2026-09-05 22:11:23,841 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:23,846 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:11:37,480 | INFO | Successful login: tornike@gmail.com
+2026-09-05 22:11:37,481 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-05 22:11:45,614 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:45] "GET / HTTP/1.1" 200 -
+2026-09-05 22:11:45,726 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:45,727 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:11:47,925 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:47] "GET /jobs/new HTTP/1.1" 200 -
+2026-09-05 22:11:48,001 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:11:48,001 | INFO | 127.0.0.1 - - [05/Sep/2026 22:11:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:12:33,869 | INFO | Job created: id=2 author=tornike@gmail.com
+2026-09-05 22:12:33,870 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:33] "[32mPOST /jobs/new HTTP/1.1[0m" 302 -
+2026-09-05 22:12:33,889 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:33] "GET /jobs/2 HTTP/1.1" 200 -
+2026-09-05 22:12:34,285 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:12:34,323 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:12:40,148 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:40] "GET /users/2 HTTP/1.1" 200 -
+2026-09-05 22:12:40,253 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:12:40,268 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:12:52,383 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:52] "GET / HTTP/1.1" 200 -
+2026-09-05 22:12:52,459 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:12:52,506 | INFO | 127.0.0.1 - - [05/Sep/2026 22:12:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:13:41,608 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:41] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-05 22:13:41,975 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:13:41,975 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:13:47,177 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:47] "GET /jobs/2 HTTP/1.1" 200 -
+2026-09-05 22:13:47,275 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:13:47,285 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:13:50,044 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:50] "GET /jobs/2/edit HTTP/1.1" 200 -
+2026-09-05 22:13:50,173 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:13:50,174 | INFO | 127.0.0.1 - - [05/Sep/2026 22:13:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:14:17,673 | INFO | Job edited: id=2 author=tornike@gmail.com
+2026-09-05 22:14:17,676 | INFO | 127.0.0.1 - - [05/Sep/2026 22:14:17] "[32mPOST /jobs/2/edit HTTP/1.1[0m" 302 -
+2026-09-05 22:14:17,696 | INFO | 127.0.0.1 - - [05/Sep/2026 22:14:17] "GET /jobs/2 HTTP/1.1" 200 -
+2026-09-05 22:14:17,765 | INFO | 127.0.0.1 - - [05/Sep/2026 22:14:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:14:17,769 | INFO | 127.0.0.1 - - [05/Sep/2026 22:14:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:14:37,172 | INFO | 127.0.0.1 - - [05/Sep/2026 22:14:37] "GET /jobs/new HTTP/1.1" 200 -
+2026-09-05 22:14:37,312 | INFO | 127.0.0.1 - - [05/Sep/2026 22:14:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:14:37,315 | INFO | 127.0.0.1 - - [05/Sep/2026 22:14:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:16:15,623 | INFO | Job created: id=3 author=tornike@gmail.com
+2026-09-05 22:16:15,624 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:15] "[32mPOST /jobs/new HTTP/1.1[0m" 302 -
+2026-09-05 22:16:15,644 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:15] "GET /jobs/3 HTTP/1.1" 200 -
+2026-09-05 22:16:16,064 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:16:16,095 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:16:26,223 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:26] "GET / HTTP/1.1" 200 -
+2026-09-05 22:16:26,355 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:16:26,359 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:16:35,352 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:35] "GET /jobs/3 HTTP/1.1" 200 -
+2026-09-05 22:16:35,458 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:16:35,461 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:16:37,587 | INFO | Job deleted: id=3 author=tornike@gmail.com
+2026-09-05 22:16:37,588 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:37] "[32mPOST /jobs/3/delete HTTP/1.1[0m" 302 -
+2026-09-05 22:16:43,116 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:43] "GET / HTTP/1.1" 200 -
+2026-09-05 22:16:43,185 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:16:43,195 | INFO | 127.0.0.1 - - [05/Sep/2026 22:16:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:18:02,525 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:02] "GET / HTTP/1.1" 200 -
+2026-09-05 22:18:02,822 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:18:02,823 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:02] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 22:18:17,448 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-05 22:18:22,471 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:22] "GET / HTTP/1.1" 200 -
+2026-09-05 22:18:22,662 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:18:22,668 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:18:24,139 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:24] "GET /login HTTP/1.1" 200 -
+2026-09-05 22:18:24,386 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:18:24,486 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-05 22:18:56,506 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-05 22:18:56,719 | INFO | 127.0.0.1 - - [05/Sep/2026 22:18:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-09-05 22:19:36,540 | INFO | 127.0.0.1 - - [05/Sep/2026 22:19:36] "GET / HTTP/1.1" 200 -
+2026-09-05 22:19:37,355 | INFO | 127.0.0.1 - - [05/Sep/2026 22:19:37] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 22:19:37,379 | INFO | 127.0.0.1 - - [05/Sep/2026 22:19:37] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 22:19:37,449 | INFO | 127.0.0.1 - - [05/Sep/2026 22:19:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-09-05 22:19:58,235 | INFO | 127.0.0.1 - - [05/Sep/2026 22:19:58] "GET /about HTTP/1.1" 200 -
+2026-09-05 22:19:58,383 | INFO | 127.0.0.1 - - [05/Sep/2026 22:19:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-09-05 22:19:58,387 | INFO | 127.0.0.1 - - [05/Sep/2026 22:19:58] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 22:19:58,983 | INFO | 127.0.0.1 - - [05/Sep/2026 22:19:58] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 22:20:15,356 | INFO | 127.0.0.1 - - [05/Sep/2026 22:20:15] "GET / HTTP/1.1" 200 -
+2026-09-05 22:20:15,693 | INFO | 127.0.0.1 - - [05/Sep/2026 22:20:15] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-05 22:20:15,810 | INFO | 127.0.0.1 - - [05/Sep/2026 22:20:15] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-05 22:20:17,249 | INFO | 127.0.0.1 - - [05/Sep/2026 22:20:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-09-07 01:14:29,578 | INFO | Database tables created.
+2026-09-07 01:14:29,960 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 01:14:29,960 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-07 01:14:53,400 | INFO | 127.0.0.1 - - [07/Sep/2026 01:14:53] "GET / HTTP/1.1" 200 -
+2026-09-07 01:14:57,548 | INFO | 127.0.0.1 - - [07/Sep/2026 01:14:57] "GET / HTTP/1.1" 200 -
+2026-09-07 01:14:58,217 | INFO | 127.0.0.1 - - [07/Sep/2026 01:14:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 01:14:58,369 | INFO | 127.0.0.1 - - [07/Sep/2026 01:14:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 01:14:59,473 | INFO | 127.0.0.1 - - [07/Sep/2026 01:14:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-07 01:15:34,341 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:34] "GET /jobs/1 HTTP/1.1" 200 -
+2026-09-07 01:15:34,636 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 01:15:34,646 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 01:15:44,355 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:44] "GET /about HTTP/1.1" 200 -
+2026-09-07 01:15:44,643 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 01:15:44,749 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 01:15:46,009 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:46] "GET / HTTP/1.1" 200 -
+2026-09-07 01:15:50,549 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:50] "GET / HTTP/1.1" 200 -
+2026-09-07 01:15:50,693 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 01:15:50,700 | INFO | 127.0.0.1 - - [07/Sep/2026 01:15:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 01:23:23,233 | INFO | 127.0.0.1 - - [07/Sep/2026 01:23:23] "GET / HTTP/1.1" 200 -
+2026-09-07 01:23:23,716 | INFO | 127.0.0.1 - - [07/Sep/2026 01:23:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 01:23:23,892 | INFO | 127.0.0.1 - - [07/Sep/2026 01:23:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:05:11,968 | WARNING | API request error: 
+2026-09-07 02:05:12,112 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:12] "GET / HTTP/1.1" 200 -
+2026-09-07 02:05:12,823 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:05:12,834 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:12] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-07 02:05:14,359 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:14] "GET /about HTTP/1.1" 200 -
+2026-09-07 02:05:14,671 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:05:14,676 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:05:17,214 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:17] "GET /about HTTP/1.1" 200 -
+2026-09-07 02:05:17,345 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:05:17,351 | INFO | 127.0.0.1 - - [07/Sep/2026 02:05:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:05:49,276 | INFO | Database tables created.
+2026-09-07 02:05:49,316 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 02:05:49,316 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-07 02:06:00,646 | INFO | 127.0.0.1 - - [07/Sep/2026 02:06:00] "GET / HTTP/1.1" 200 -
+2026-09-07 02:06:01,253 | INFO | 127.0.0.1 - - [07/Sep/2026 02:06:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:06:01,262 | INFO | 127.0.0.1 - - [07/Sep/2026 02:06:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:06:02,824 | INFO | 127.0.0.1 - - [07/Sep/2026 02:06:02] "GET /about HTTP/1.1" 200 -
+2026-09-07 02:06:03,061 | INFO | 127.0.0.1 - - [07/Sep/2026 02:06:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:06:03,073 | INFO | 127.0.0.1 - - [07/Sep/2026 02:06:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:07:30,730 | INFO | 127.0.0.1 - - [07/Sep/2026 02:07:30] "GET /about HTTP/1.1" 200 -
+2026-09-07 02:07:31,968 | INFO | 127.0.0.1 - - [07/Sep/2026 02:07:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:07:32,092 | INFO | 127.0.0.1 - - [07/Sep/2026 02:07:32] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-07 02:08:16,270 | INFO | 127.0.0.1 - - [07/Sep/2026 02:08:16] "GET /login HTTP/1.1" 200 -
+2026-09-07 02:08:16,806 | INFO | 127.0.0.1 - - [07/Sep/2026 02:08:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:08:16,831 | INFO | 127.0.0.1 - - [07/Sep/2026 02:08:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:08:33,948 | INFO | 127.0.0.1 - - [07/Sep/2026 02:08:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:08:34,184 | INFO | 127.0.0.1 - - [07/Sep/2026 02:08:34] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-09-07 02:11:38,406 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:38] "GET /login HTTP/1.1" 200 -
+2026-09-07 02:11:39,435 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:39] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-07 02:11:39,442 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:39] "GET /static/style.css HTTP/1.1" 200 -
+2026-09-07 02:11:52,429 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:52] "GET / HTTP/1.1" 200 -
+2026-09-07 02:11:52,762 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:11:52,763 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:11:55,836 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:55] "GET /about HTTP/1.1" 200 -
+2026-09-07 02:11:56,247 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:11:56,316 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:11:58,893 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:58] "GET /login HTTP/1.1" 200 -
+2026-09-07 02:11:59,103 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:11:59,110 | INFO | 127.0.0.1 - - [07/Sep/2026 02:11:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:12:00,077 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:00] "GET /register HTTP/1.1" 200 -
+2026-09-07 02:12:00,251 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:12:00,252 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:12:18,932 | WARNING | API request error: 
+2026-09-07 02:12:18,964 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:18] "GET / HTTP/1.1" 200 -
+2026-09-07 02:12:19,183 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:12:19,186 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:12:54,922 | WARNING | API request error: 
+2026-09-07 02:12:54,927 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:54] "GET /?q=&category=Operations HTTP/1.1" 200 -
+2026-09-07 02:12:55,458 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:12:55,465 | INFO | 127.0.0.1 - - [07/Sep/2026 02:12:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:13:35,624 | INFO | Database tables created.
+2026-09-07 02:13:35,675 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 02:13:35,675 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-07 02:13:52,924 | WARNING | API request error: 
+2026-09-07 02:13:53,075 | INFO | 127.0.0.1 - - [07/Sep/2026 02:13:53] "GET /?q=&category=Operations HTTP/1.1" 200 -
+2026-09-07 02:13:56,693 | INFO | 127.0.0.1 - - [07/Sep/2026 02:13:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:13:56,820 | INFO | 127.0.0.1 - - [07/Sep/2026 02:13:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:14:15,088 | INFO | 127.0.0.1 - - [07/Sep/2026 02:14:15] "GET /?q=&category= HTTP/1.1" 200 -
+2026-09-07 02:14:15,307 | INFO | 127.0.0.1 - - [07/Sep/2026 02:14:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:14:15,437 | INFO | 127.0.0.1 - - [07/Sep/2026 02:14:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:20:03,942 | WARNING | API request error: 
+2026-09-07 02:20:04,046 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:04] "GET / HTTP/1.1" 200 -
+2026-09-07 02:20:04,614 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:20:05,165 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:05] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-07 02:20:17,082 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:17] "GET /?q=&category=Legal HTTP/1.1" 200 -
+2026-09-07 02:20:17,260 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:20:17,273 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:20:35,924 | WARNING | API request error: 
+2026-09-07 02:20:36,118 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:36] "GET /?q=&category= HTTP/1.1" 200 -
+2026-09-07 02:20:36,802 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:20:36,806 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:20:56,292 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:56] "GET /?q=&category= HTTP/1.1" 200 -
+2026-09-07 02:20:56,883 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:20:56,894 | INFO | 127.0.0.1 - - [07/Sep/2026 02:20:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:22:00,018 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:00] "GET /about HTTP/1.1" 200 -
+2026-09-07 02:22:00,672 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:22:00,829 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:22:07,849 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:07] "GET / HTTP/1.1" 200 -
+2026-09-07 02:22:08,003 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:22:08,019 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:22:17,784 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:17] "GET /?q=&category= HTTP/1.1" 200 -
+2026-09-07 02:22:17,902 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:22:17,916 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 02:22:32,028 | INFO | Database tables created.
+2026-09-07 02:22:32,203 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 02:22:32,204 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-07 02:22:50,339 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:50] "GET / HTTP/1.1" 200 -
+2026-09-07 02:22:52,947 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:52] "GET / HTTP/1.1" 200 -
+2026-09-07 02:22:54,930 | WARNING | API request error: 
+2026-09-07 02:22:55,065 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 02:22:55,121 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:55] "GET /?q= HTTP/1.1" 200 -
+2026-09-07 02:22:55,432 | INFO | 127.0.0.1 - - [07/Sep/2026 02:22:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:07:51,862 | INFO | Database tables created.
+2026-09-07 03:07:51,923 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 03:07:51,923 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-07 03:08:19,236 | INFO | 127.0.0.1 - - [07/Sep/2026 03:08:19] "GET / HTTP/1.1" 200 -
+2026-09-07 03:08:22,022 | INFO | 127.0.0.1 - - [07/Sep/2026 03:08:22] "GET / HTTP/1.1" 200 -
+2026-09-07 03:09:09,266 | INFO | Database tables created.
+2026-09-07 03:09:09,324 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 03:09:09,324 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-07 03:09:15,066 | INFO | 127.0.0.1 - - [07/Sep/2026 03:09:15] "GET / HTTP/1.1" 200 -
+2026-09-07 03:09:17,213 | INFO | 127.0.0.1 - - [07/Sep/2026 03:09:17] "GET / HTTP/1.1" 200 -
+2026-09-07 03:09:23,784 | INFO | 127.0.0.1 - - [07/Sep/2026 03:09:23] "GET / HTTP/1.1" 200 -
+2026-09-07 03:09:24,349 | INFO | 127.0.0.1 - - [07/Sep/2026 03:09:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:09:24,493 | INFO | 127.0.0.1 - - [07/Sep/2026 03:09:24] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-07 03:09:30,061 | INFO | 127.0.0.1 - - [07/Sep/2026 03:09:30] "GET /register HTTP/1.1" 200 -
+2026-09-07 03:09:30,384 | INFO | 127.0.0.1 - - [07/Sep/2026 03:09:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:09:30,387 | INFO | 127.0.0.1 - - [07/Sep/2026 03:09:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:10:50,594 | INFO | 127.0.0.1 - - [07/Sep/2026 03:10:50] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-09-07 03:10:50,852 | INFO | 127.0.0.1 - - [07/Sep/2026 03:10:50] "GET /login HTTP/1.1" 200 -
+2026-09-07 03:10:51,731 | INFO | 127.0.0.1 - - [07/Sep/2026 03:10:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:10:51,850 | INFO | 127.0.0.1 - - [07/Sep/2026 03:10:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:11:05,536 | INFO | Successful login: tornike@posta.ge
+2026-09-07 03:11:05,545 | INFO | 127.0.0.1 - - [07/Sep/2026 03:11:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-07 03:11:13,883 | INFO | 127.0.0.1 - - [07/Sep/2026 03:11:13] "GET / HTTP/1.1" 200 -
+2026-09-07 03:11:14,055 | INFO | 127.0.0.1 - - [07/Sep/2026 03:11:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:11:14,108 | INFO | 127.0.0.1 - - [07/Sep/2026 03:11:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:11:19,206 | INFO | 127.0.0.1 - - [07/Sep/2026 03:11:19] "GET /jobs/new HTTP/1.1" 200 -
+2026-09-07 03:11:19,290 | INFO | 127.0.0.1 - - [07/Sep/2026 03:11:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:11:19,291 | INFO | 127.0.0.1 - - [07/Sep/2026 03:11:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:14:06,428 | INFO | Job created: id=3 author=tornike@posta.ge
+2026-09-07 03:14:06,432 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:06] "[32mPOST /jobs/new HTTP/1.1[0m" 302 -
+2026-09-07 03:14:06,662 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:06] "GET /jobs/3 HTTP/1.1" 200 -
+2026-09-07 03:14:07,182 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:14:07,220 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:14:36,950 | WARNING | API request error: 
+2026-09-07 03:14:36,963 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:36] "GET / HTTP/1.1" 200 -
+2026-09-07 03:14:37,161 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:14:37,163 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:14:43,171 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:43] "GET /jobs/2 HTTP/1.1" 200 -
+2026-09-07 03:14:43,280 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:14:43,282 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:14:45,695 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:45] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:14:45,933 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:14:46,005 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:14:46,156 | INFO | 127.0.0.1 - - [07/Sep/2026 03:14:46] "[33mGET /static/profile_pics/static/profile_pics/default.png HTTP/1.1[0m" 404 -
+2026-09-07 03:15:45,514 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:45] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-09-07 03:15:45,532 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:45] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:15:45,765 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:45] "GET /static/profile_pics/57acff0056fbd9b343b4c323.png HTTP/1.1" 200 -
+2026-09-07 03:15:45,783 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:15:45,848 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:15:49,319 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:49] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:15:49,430 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:15:49,452 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:49] "[36mGET /static/profile_pics/57acff0056fbd9b343b4c323.png HTTP/1.1[0m" 304 -
+2026-09-07 03:15:49,454 | INFO | 127.0.0.1 - - [07/Sep/2026 03:15:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:18:23,454 | INFO | 127.0.0.1 - - [07/Sep/2026 03:18:23] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-09-07 03:18:23,885 | INFO | 127.0.0.1 - - [07/Sep/2026 03:18:23] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:18:25,151 | INFO | 127.0.0.1 - - [07/Sep/2026 03:18:25] "[36mGET /static/profile_pics/57acff0056fbd9b343b4c323.png HTTP/1.1[0m" 304 -
+2026-09-07 03:18:25,188 | INFO | 127.0.0.1 - - [07/Sep/2026 03:18:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:18:25,218 | INFO | 127.0.0.1 - - [07/Sep/2026 03:18:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:19:55,283 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 113, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 21, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 58, in block 'content'
+    <a class="author" href="{{ url_for('user_profile', user_id=job.author.id) }}">
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\map.py", line 899, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\map.py", line 801, in _partial_build
+    rv = self._partial_build(
+        endpoint, values, self.default_method, append_unknown
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\map.py", line 814, in _partial_build
+    build_rv = rule.build(values, append_unknown)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\rules.py", line 849, in build
+    return self._build_unknown(**values)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "<werkzeug routing>", line 1, in <builder:'/users/<int:user_id>'>
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\converters.py", line 163, in to_url
+    value_str = str(self.num_convert(value))
+                    ~~~~~~~~~~~~~~~~^^^^^^^
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'id'
+2026-09-07 03:19:55,936 | INFO | 127.0.0.1 - - [07/Sep/2026 03:19:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-07 03:19:56,337 | INFO | 127.0.0.1 - - [07/Sep/2026 03:19:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:19:56,413 | INFO | 127.0.0.1 - - [07/Sep/2026 03:19:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:20:08,524 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\app.py", line 113, in index
+    return render_template(
+        'index.html', title='Job Board', jobs=jobs, categories=CATEGORIES,
+        selected_category=category, search=search, other_jobs=asyncio.run(external_api_jobs())
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\base.html", line 21, in top-level template code
+    <main class="container my-5">{% block content %}{% endblock %}</main>
+    ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\DESKTOP.GE\Desktop\JobBoard\templates\index.html", line 58, in block 'content'
+    <a class="author" href="{{ url_for('user_profile', user_id=job.author.id) }}">
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\map.py", line 899, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\map.py", line 801, in _partial_build
+    rv = self._partial_build(
+        endpoint, values, self.default_method, append_unknown
+    )
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\map.py", line 814, in _partial_build
+    build_rv = rule.build(values, append_unknown)
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\rules.py", line 849, in build
+    return self._build_unknown(**values)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "<werkzeug routing>", line 1, in <builder:'/users/<int:user_id>'>
+  File "C:\Users\DESKTOP.GE\AppData\Roaming\Python\Python314\site-packages\werkzeug\routing\converters.py", line 163, in to_url
+    value_str = str(self.num_convert(value))
+                    ~~~~~~~~~~~~~~~~^^^^^^^
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'id'
+2026-09-07 03:20:08,532 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-09-07 03:20:08,609 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:20:08,612 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:20:12,525 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:12] "GET /login HTTP/1.1" 200 -
+2026-09-07 03:20:12,658 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:20:12,660 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:20:14,100 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:14] "GET /register HTTP/1.1" 200 -
+2026-09-07 03:20:14,671 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:20:14,686 | INFO | 127.0.0.1 - - [07/Sep/2026 03:20:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:21:09,683 | INFO | 127.0.0.1 - - [07/Sep/2026 03:21:09] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-09-07 03:21:09,714 | INFO | 127.0.0.1 - - [07/Sep/2026 03:21:09] "[32mGET /login HTTP/1.1[0m" 302 -
+2026-09-07 03:21:16,960 | INFO | 127.0.0.1 - - [07/Sep/2026 03:21:16] "GET / HTTP/1.1" 200 -
+2026-09-07 03:21:17,716 | INFO | 127.0.0.1 - - [07/Sep/2026 03:21:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:21:17,726 | INFO | 127.0.0.1 - - [07/Sep/2026 03:21:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:21:28,118 | INFO | 127.0.0.1 - - [07/Sep/2026 03:21:28] "GET /jobs/new HTTP/1.1" 200 -
+2026-09-07 03:21:28,304 | INFO | 127.0.0.1 - - [07/Sep/2026 03:21:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:21:28,313 | INFO | 127.0.0.1 - - [07/Sep/2026 03:21:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:22:20,500 | INFO | Job created: id=3 author=tornike@posta.ge
+2026-09-07 03:22:20,503 | INFO | 127.0.0.1 - - [07/Sep/2026 03:22:20] "[32mPOST /jobs/new HTTP/1.1[0m" 302 -
+2026-09-07 03:22:20,547 | INFO | 127.0.0.1 - - [07/Sep/2026 03:22:20] "GET /jobs/3 HTTP/1.1" 200 -
+2026-09-07 03:22:21,112 | INFO | 127.0.0.1 - - [07/Sep/2026 03:22:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:22:21,140 | INFO | 127.0.0.1 - - [07/Sep/2026 03:22:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:22:23,574 | INFO | 127.0.0.1 - - [07/Sep/2026 03:22:23] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:22:23,800 | INFO | 127.0.0.1 - - [07/Sep/2026 03:22:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:22:23,805 | INFO | 127.0.0.1 - - [07/Sep/2026 03:22:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:22:23,883 | INFO | 127.0.0.1 - - [07/Sep/2026 03:22:23] "[33mGET /static/profile_pics/static/profile_pics/default.png HTTP/1.1[0m" 404 -
+2026-09-07 03:25:56,511 | INFO | 127.0.0.1 - - [07/Sep/2026 03:25:56] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:25:57,783 | INFO | 127.0.0.1 - - [07/Sep/2026 03:25:57] "[33mGET /static/profile_pics/static/profile_pics/default.png HTTP/1.1[0m" 404 -
+2026-09-07 03:26:00,070 | INFO | 127.0.0.1 - - [07/Sep/2026 03:26:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:26:00,514 | INFO | 127.0.0.1 - - [07/Sep/2026 03:26:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:31:16,270 | INFO | Database tables created.
+2026-09-07 03:31:16,349 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 03:31:16,349 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-07 03:31:20,631 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:20] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:31:32,466 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:32] "[33mGET /static/profile_pics/static/profile_pics/default.png HTTP/1.1[0m" 404 -
+2026-09-07 03:31:33,094 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:31:33,146 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:31:38,455 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:38] "GET /about HTTP/1.1" 200 -
+2026-09-07 03:31:45,519 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:31:45,590 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:31:47,401 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:47] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:31:51,050 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:31:51,050 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:31:51,079 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:51] "[33mGET /static/profile_pics/static/profile_pics/default.png HTTP/1.1[0m" 404 -
+2026-09-07 03:31:58,154 | INFO | 127.0.0.1 - - [07/Sep/2026 03:31:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-07 03:32:08,267 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:08] "GET / HTTP/1.1" 200 -
+2026-09-07 03:32:08,448 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:32:08,486 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:32:12,234 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:12] "GET /login HTTP/1.1" 200 -
+2026-09-07 03:32:12,424 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:32:12,428 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:32:22,771 | INFO | Successful login: toko@gmail.com
+2026-09-07 03:32:22,773 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-07 03:32:30,724 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:30] "GET / HTTP/1.1" 200 -
+2026-09-07 03:32:30,984 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:32:30,984 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:32:36,859 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:36] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:32:37,158 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:32:37,165 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:32:37,242 | INFO | 127.0.0.1 - - [07/Sep/2026 03:32:37] "GET /static/profile_pics/default.png HTTP/1.1" 200 -
+2026-09-07 03:33:01,437 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-07 03:33:11,140 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:11] "GET / HTTP/1.1" 200 -
+2026-09-07 03:33:11,597 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:33:11,609 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:33:12,931 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:12] "GET /login HTTP/1.1" 200 -
+2026-09-07 03:33:13,098 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:33:13,101 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:33:36,189 | INFO | Successful login: tornike@posta.ge
+2026-09-07 03:33:36,190 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-09-07 03:33:40,207 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:40] "GET / HTTP/1.1" 200 -
+2026-09-07 03:33:40,391 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:33:40,394 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:33:43,630 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:43] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:33:43,767 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:33:43,782 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:33:43,786 | INFO | 127.0.0.1 - - [07/Sep/2026 03:33:43] "[33mGET /static/profile_pics/static/profile_pics/default.png HTTP/1.1[0m" 404 -
+2026-09-07 03:36:50,192 | INFO | 127.0.0.1 - - [07/Sep/2026 03:36:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-07 03:36:50,345 | INFO | 127.0.0.1 - - [07/Sep/2026 03:36:50] "GET /login?next=/logout HTTP/1.1" 200 -
+2026-09-07 03:36:51,807 | INFO | 127.0.0.1 - - [07/Sep/2026 03:36:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:36:51,809 | INFO | 127.0.0.1 - - [07/Sep/2026 03:36:51] "GET /static/script.js HTTP/1.1" 200 -
+2026-09-07 03:36:59,668 | INFO | 127.0.0.1 - - [07/Sep/2026 03:36:59] "GET /register HTTP/1.1" 200 -
+2026-09-07 03:36:59,784 | INFO | 127.0.0.1 - - [07/Sep/2026 03:36:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:36:59,822 | INFO | 127.0.0.1 - - [07/Sep/2026 03:36:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:37:22,753 | INFO | 127.0.0.1 - - [07/Sep/2026 03:37:22] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-09-07 03:37:22,799 | INFO | 127.0.0.1 - - [07/Sep/2026 03:37:22] "[32mGET /login HTTP/1.1[0m" 302 -
+2026-09-07 03:37:33,007 | INFO | 127.0.0.1 - - [07/Sep/2026 03:37:33] "GET / HTTP/1.1" 200 -
+2026-09-07 03:37:33,634 | INFO | 127.0.0.1 - - [07/Sep/2026 03:37:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:37:33,682 | INFO | 127.0.0.1 - - [07/Sep/2026 03:37:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:37:40,184 | INFO | 127.0.0.1 - - [07/Sep/2026 03:37:40] "GET /jobs/new HTTP/1.1" 200 -
+2026-09-07 03:37:43,157 | INFO | 127.0.0.1 - - [07/Sep/2026 03:37:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:37:43,362 | INFO | 127.0.0.1 - - [07/Sep/2026 03:37:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:38:23,356 | INFO | Job created: id=3 author=tornike@posta.ge
+2026-09-07 03:38:23,357 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:23] "[32mPOST /jobs/new HTTP/1.1[0m" 302 -
+2026-09-07 03:38:23,571 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:23] "GET /jobs/3 HTTP/1.1" 200 -
+2026-09-07 03:38:23,837 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:38:23,849 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:38:25,343 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:25] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:38:25,476 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:25] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:38:25,506 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:38:25,535 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:38:36,174 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:36] "GET / HTTP/1.1" 200 -
+2026-09-07 03:38:36,854 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:38:36,929 | INFO | 127.0.0.1 - - [07/Sep/2026 03:38:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:39:21,217 | INFO | 127.0.0.1 - - [07/Sep/2026 03:39:21] "GET /?q=backend&category= HTTP/1.1" 200 -
+2026-09-07 03:39:21,812 | INFO | 127.0.0.1 - - [07/Sep/2026 03:39:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:39:21,925 | INFO | 127.0.0.1 - - [07/Sep/2026 03:39:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:40:08,427 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:08] "GET / HTTP/1.1" 200 -
+2026-09-07 03:40:09,022 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:40:09,048 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:40:25,446 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:25] "GET /jobs/3 HTTP/1.1" 200 -
+2026-09-07 03:40:25,594 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:40:25,599 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:40:31,241 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:31] "GET /jobs/new HTTP/1.1" 200 -
+2026-09-07 03:40:31,426 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:40:31,428 | INFO | 127.0.0.1 - - [07/Sep/2026 03:40:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:42:06,478 | INFO | Job created: id=4 author=tornike@posta.ge
+2026-09-07 03:42:06,480 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:06] "[32mPOST /jobs/new HTTP/1.1[0m" 302 -
+2026-09-07 03:42:07,153 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:07] "GET /jobs/4 HTTP/1.1" 200 -
+2026-09-07 03:42:07,627 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:42:07,631 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:42:11,357 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:11] "GET /profile HTTP/1.1" 200 -
+2026-09-07 03:42:11,468 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:42:11,476 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:11] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:42:11,540 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:42:21,922 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:21] "GET / HTTP/1.1" 200 -
+2026-09-07 03:42:22,014 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:42:22,019 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:42:29,531 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:29] "GET /users/4 HTTP/1.1" 200 -
+2026-09-07 03:42:29,660 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:42:29,663 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:29] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:42:29,668 | INFO | 127.0.0.1 - - [07/Sep/2026 03:42:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:44:23,419 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:23] "GET / HTTP/1.1" 200 -
+2026-09-07 03:44:24,656 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:44:24,666 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:44:26,940 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:26] "GET /users/4 HTTP/1.1" 200 -
+2026-09-07 03:44:27,243 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:44:27,248 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:44:27,260 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:27] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:44:36,883 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:36] "GET / HTTP/1.1" 200 -
+2026-09-07 03:44:37,147 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:44:37,154 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:44:38,870 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:38] "GET /users/2 HTTP/1.1" 200 -
+2026-09-07 03:44:38,970 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:44:38,970 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:38] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:44:39,015 | INFO | 127.0.0.1 - - [07/Sep/2026 03:44:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:45:14,538 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-09-07 03:45:22,228 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:22] "GET / HTTP/1.1" 200 -
+2026-09-07 03:45:22,806 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:45:22,818 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:45:27,440 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:27] "GET /users/2 HTTP/1.1" 200 -
+2026-09-07 03:45:27,622 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:45:27,641 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:27] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:45:27,655 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:45:32,263 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:32] "GET /about HTTP/1.1" 200 -
+2026-09-07 03:45:32,419 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:45:32,421 | INFO | 127.0.0.1 - - [07/Sep/2026 03:45:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:46:47,789 | INFO | 127.0.0.1 - - [07/Sep/2026 03:46:47] "GET / HTTP/1.1" 200 -
+2026-09-07 03:46:48,252 | INFO | 127.0.0.1 - - [07/Sep/2026 03:46:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:46:48,307 | INFO | 127.0.0.1 - - [07/Sep/2026 03:46:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:46:52,476 | INFO | 127.0.0.1 - - [07/Sep/2026 03:46:52] "GET /users/1 HTTP/1.1" 200 -
+2026-09-07 03:46:52,566 | INFO | 127.0.0.1 - - [07/Sep/2026 03:46:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:46:52,570 | INFO | 127.0.0.1 - - [07/Sep/2026 03:46:52] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:46:52,624 | INFO | 127.0.0.1 - - [07/Sep/2026 03:46:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:47:43,685 | INFO | 127.0.0.1 - - [07/Sep/2026 03:47:43] "GET /users/1 HTTP/1.1" 200 -
+2026-09-07 03:47:44,236 | INFO | 127.0.0.1 - - [07/Sep/2026 03:47:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:47:44,372 | INFO | 127.0.0.1 - - [07/Sep/2026 03:47:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:47:44,437 | INFO | 127.0.0.1 - - [07/Sep/2026 03:47:44] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:48:02,930 | INFO | Database tables created.
+2026-09-07 03:48:02,995 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 03:48:02,995 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-07 03:48:14,045 | INFO | 127.0.0.1 - - [07/Sep/2026 03:48:14] "GET / HTTP/1.1" 200 -
+2026-09-07 03:48:14,391 | INFO | 127.0.0.1 - - [07/Sep/2026 03:48:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:48:14,427 | INFO | 127.0.0.1 - - [07/Sep/2026 03:48:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-09-07 03:48:18,916 | INFO | 127.0.0.1 - - [07/Sep/2026 03:48:18] "GET /users/2 HTTP/1.1" 200 -
+2026-09-07 03:48:18,988 | INFO | 127.0.0.1 - - [07/Sep/2026 03:48:18] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-07 03:48:18,988 | INFO | 127.0.0.1 - - [07/Sep/2026 03:48:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-09-07 03:48:19,048 | INFO | 127.0.0.1 - - [07/Sep/2026 03:48:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -

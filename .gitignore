@@ -1,0 +1,34 @@
+node_modules/
+
+__pycache__/
+.pytest_cache
+.pytest_cache/
+
+.vscode
+.vscode/
+.hintrc
+
+.venv
+venv/
+
+.idea
+.idea/
+.idea/*
+
+.env
+/env
+.env.local
+
+# instance/
+# *.db
+# *.sqlite3
+
+# log/
+# *.log
+
+# static/profile_pics/*
+# static/profile_pics/default.png
+
+# config.py
+# models.py
+# forms.py

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<section class="form-page">
+
+  <p class="eyebrow">JobBoard</p>
+  <h1>{{ heading }}</h1>
+
+  <form class="content-form" method="post">
+    {{ form.hidden_tag() }}
+
+    <div class="form-grid">
+      {% for field in [form.title, form.company, form.salary, form.location, form.category] %}
+      <div class="field">
+        {{ field.label }}
+        {{ field(class='form-control') }}
+
+        {% for error in field.errors %}
+          <small class="error">{{ error }}</small>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    {% for field in [form.summary, form.description] %}
+    <div class="field">
+      {{ field.label }}
+      {{ field(class='form-control', rows=field.name == 'description' and 8 or 3) }}
+
+      {% for error in field.errors %}
+        <small class="error">{{ error }}</small>
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+    {{ form.submit(class='btn btn-accent') }}
+    <a class="btn btn-link" href="{{ url_for('index') }}">გაუქმება</a>
+  </form>
+
+</section>
+{% endblock %}

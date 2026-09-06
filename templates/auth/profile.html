@@ -1,0 +1,31 @@
+{% extends 'base.html' %} {% block content %}
+<section class="profile-layout">
+  <div class="profile-card">
+    <div class="avatar">
+      <img
+        src="{{ url_for('static', filename='profile_pics/' + current_user.image_file) }}"
+        alt="პროფილის ფოტო"
+      />
+    </div>
+    <h1>{{ current_user.username }}</h1>
+    <p>{{ current_user.email }}</p>
+    <small>გაწევრიანდა {{ current_user.joined_at.strftime('%d.%m.%Y') }}</small>
+  </div>
+
+  <form class="content-form" method="post" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+
+    <p class="eyebrow">ჩემი ანგარიში</p>
+    <h2>პროფილის რედაქტირება</h2>
+    {% for field in [form.username, form.email, form.image] %}
+
+    <div class="field">
+      {{ field.label }} {{ field(class='form-control') }} {% for error in
+      field.errors %}
+      <small class="error">{{ error }}</small>
+      {% endfor %}
+    </div>
+    {% endfor %} {{ form.submit(class='btn btn-accent') }}
+  </form>
+</section>
+{% endblock %}
