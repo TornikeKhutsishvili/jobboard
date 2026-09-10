@@ -1,5 +1,7 @@
-{% extends 'base.html' %} {% block title %} {{ title }} {% endblock %} {% block
-content %}
+{% extends 'base.html' %}
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
 <section class="jobs-heading">
   <div>
     <p class="eyebrow">კარიერის პლატფორმა</p>
@@ -11,27 +13,15 @@ content %}
 <form class="search-panel" method="get">
   <div class="search-field">
     <i class="bi bi-search"></i>
-    <input
-      name="q"
-      value="{{ search }}"
-      placeholder="სათაური, კომპანია ან ლოკაცია"
-    />
+    <input name="q" value="{{ search }}" placeholder="სათაური, კომპანია ან ლოკაცია" />
   </div>
   <select name="category" aria-label="კატეგორია">
     <option value="">ყველა კატეგორია</option>
     {% for value, label in categories %}
-    <option
-      value="{{ value }}"
-      {%
-      if
-      selected_category
-      in
-      [value]
-      %}
-      selected
-      {%
-      endif
-      %}
+    <option value="{{ value }}"
+      {% if selected_category in [value] %}
+        selected
+      {% endif %}
     >
       {{ label }}
     </option>
@@ -43,7 +33,7 @@ content %}
 <div class="jobs-meta">
   <span>{{ jobs|length }} ვაკანსია</span>
   {% if search or selected_category %}
-  <a href="{{ url_for('index') }}">ფილტრის გასუფთავება</a>
+    <a href="{{ url_for('index') }}">ფილტრის გასუფთავება</a>
   {% endif %}
 </div>
 
@@ -59,14 +49,13 @@ content %}
     </h2>
     <p class="company">
       <i class="bi bi-buildings"></i> {{ job.company }}
-      <span> <i class="bi bi-geo-alt"></i> {{ job.location }} </span>
+      <span>
+        <i class="bi bi-geo-alt"></i> {{ job.location }}
+      </span>
     </p>
     <p class="summary">აღწერა: {{ job.summary }}</p>
     <div class="job-card-bottom">
-      <a
-        class="author"
-        href="{{ url_for('user_profile', user_id=job.author.id) }}"
-      >
+      <a class="author" href="{{ url_for('user_profile', user_id=job.author.id) }}">
         ავტორი: {{ job.author.username }}
       </a>
       <a class="read-link" href="{{ url_for('job_detail', job_id=job.id) }}">
@@ -91,9 +80,17 @@ content %}
   {% endfor %}
 </section>
 
+
+
+
+
+
+
+
 <!----------------------------- jobs from external api ----------------------------->
 {% if other_jobs %}
 <section class="external-jobs" aria-labelledby="external-jobs-title">
+
   <div class="jobs-meta">
     <h2 id="external-jobs-title">გარე ვაკანსიები</h2>
     <span>OpenWeb Jinja API</span>
@@ -110,8 +107,7 @@ content %}
       </div>
       <h2>{{ job.get('job_title', 'ვაკანსია') }}</h2>
       <p class="company">
-        <i class="bi bi-buildings"></i> {{ job.get('employer_name', 'კომპანია
-        უცნობია') }}
+        <i class="bi bi-buildings"></i> {{ job.get('employer_name', 'კომპანია უცნობია') }}
         <span>
           <i class="bi bi-geo-alt"></i>
           {{ job.get('job_city') or job.get('job_country') or 'დისტანციური' }}
@@ -120,18 +116,11 @@ content %}
       <p class="summary external-job-description">
         აღწერა: {{ job.get('job_description') or 'აღწერა არ არის' }}
       </p>
-      <button class="read-more my-2" type="button" aria-expanded="false">
-        ნახე მეტი
-      </button>
+      <button class="read-more my-2" type="button" aria-expanded="false">ნახე მეტი</button>
 
       {% if job.get('job_apply_link') %}
       <div class="job-card-bottom">
-        <a
-          class="read-link"
-          href="{{ job['job_apply_link'] }}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a class="read-link" href="{{ job['job_apply_link'] }}" target="_blank" rel="noopener noreferrer">
           დეტალები <i class="bi bi-arrow-up-right"></i>
         </a>
       </div>
@@ -139,5 +128,8 @@ content %}
     </article>
     {% endfor %}
   </div>
+
 </section>
-{% endif %} {% endblock %}
+{% endif %}
+
+{% endblock %}
