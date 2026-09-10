@@ -55,6 +55,7 @@ def test_registration_creates_user(client, app):
 
     with app.app_context():
         user = User.query.filter_by(email='newuser@example.com').first()
+
         assert user is not None
         assert user.username == 'newuser'
         assert user.image_file == 'default.png'

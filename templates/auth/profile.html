@@ -1,5 +1,9 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %}
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
 <section class="profile-layout">
+
   <div class="profile-card">
     <div class="avatar">
       <img
@@ -17,15 +21,20 @@
 
     <p class="eyebrow">ჩემი ანგარიში</p>
     <h2>პროფილის რედაქტირება</h2>
-    {% for field in [form.username, form.email, form.image] %}
 
-    <div class="field">
-      {{ field.label }} {{ field(class='form-control') }} {% for error in
-      field.errors %}
-      <small class="error">{{ error }}</small>
-      {% endfor %}
-    </div>
-    {% endfor %} {{ form.submit(class='btn btn-accent') }}
+    {% for field in [form.username, form.email, form.image] %}
+      <div class="field">
+        {{ field.label }}
+        {{ field(class='form-control') }}
+
+        {% for error in field.errors %}
+          <small class="error">{{ error }}</small>
+        {% endfor %}
+      </div>
+    {% endfor %}
+
+    {{ form.submit(class='btn btn-accent') }}
   </form>
+
 </section>
 {% endblock %}

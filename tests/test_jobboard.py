@@ -27,7 +27,9 @@ def client(app):
 
 def create_user(email, username):
     user = User(
-        username=username, email=email, password=bcrypt.generate_password_hash('password123').decode('utf-8')
+        username=username,
+        email=email,
+        password=bcrypt.generate_password_hash('password123').decode('utf-8')
     )
 
     db.session.add(user)
@@ -63,6 +65,7 @@ def test_cannot_edit_or_delete_another_users_job(client, app):
     with app.app_context():
         owner = create_user('owner@example.com', 'owner')
         intruder = create_user('intruder@example.com', 'intruder')
+
         job = Job(
             title='Python Developer', summary='Build reliable Flask applications.',
             description='Develop and maintain a production Flask application with a collaborative team.',
@@ -76,6 +79,7 @@ def test_cannot_edit_or_delete_another_users_job(client, app):
         assert intruder.id != owner.id
 
     login(client, 'intruder@example.com')
+
     assert client.get(f'/jobs/{job_id}/edit').status_code == 403
     assert client.post(f'/jobs/{job_id}/delete').status_code == 403
 

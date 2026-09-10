@@ -11,6 +11,7 @@ def app():
         WTF_CSRF_ENABLED=False,
         SQLALCHEMY_DATABASE_URI='sqlite://'
     )
+
     with flask_app.app_context():
         db.drop_all()
         db.create_all()
@@ -32,8 +33,10 @@ def create_user(username, email):
         email=email,
         password=bcrypt.generate_password_hash('password123').decode('utf-8'),
     )
+
     db.session.add(user)
     db.session.commit()
+
     return user
 
 
@@ -49,6 +52,7 @@ def test_user_cannot_edit_or_delete_another_users_job(client, app):
     with app.app_context():
         owner = create_user('owner', 'owner@example.com')
         intruder = create_user('intruder', 'intruder@example.com')
+
         job = Job(
             title='Python Developer',
             summary='Build reliable Flask applications.',
@@ -62,6 +66,7 @@ def test_user_cannot_edit_or_delete_another_users_job(client, app):
 
         db.session.add(job)
         db.session.commit()
+
         job_id = job.id
 
         assert owner.id != intruder.id
@@ -81,6 +86,7 @@ def test_authenticated_user_can_create_own_job(client, app):
         user_id = user.id
 
     login(client, 'author@example.com')
+
     response = client.post(
         '/jobs/new',
         data={
@@ -96,6 +102,7 @@ def test_authenticated_user_can_create_own_job(client, app):
     )
 
     assert response.status_code == 302
+
     with app.app_context():
         job = Job.query.filter_by(title='Backend Developer').one()
         assert job.author_id == user_id

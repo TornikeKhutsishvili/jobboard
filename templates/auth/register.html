@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% block title %} {{ title }} {% endblock %}
 
 {% block content %}
 <section class="auth-wrap">
@@ -13,6 +14,7 @@
     {{ form.hidden_tag() }}
 
     <h2>რეგისტრაცია</h2>
+
     {% for field in [form.username, form.email, form.password, form.confirm_password] %}
     <div class="field">
       {{ field.label }}
